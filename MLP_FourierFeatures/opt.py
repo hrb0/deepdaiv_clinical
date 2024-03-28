@@ -8,7 +8,7 @@ def get_opts():
                         help='path to the image to reconstruct')
 
     # 이미지 해상도 기본값 유지
-    parser.add_argument('--img_wh', nargs="+", type=int, default=[800, 800],
+    parser.add_argument('--img_wh', nargs="+", type=int, adefault=[800, 800],
                         help='resolution (img_w, img_h) of the image')
 
     # 위치 인코딩 사용 여부 기본값 변경 (선택사항)
